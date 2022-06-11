@@ -1,0 +1,27 @@
+.main{
+	    -fx-background-color:  #232526;
+		
+}
+.blurluEkran{
+	    -fx-background-color:  rgba(30,40,60, .95);
+		
+}
+.list-cell{
+	 -fx-background-color:  transparent;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+   	-fx-background-color:  transparent;
+}
+.list-cell { 
+	-fx-text-fill: white;
+}
+.list-cell:odd { 
+	-fx-background-color:  transparent;
+}
+.list-cell:even { 
+		 -fx-background-color:  transparent;
+}
+.list-cell:filled:hover { 
+    	 -fx-background-color:  transparent;
+}

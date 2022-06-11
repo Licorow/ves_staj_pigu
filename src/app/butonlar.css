@@ -1,0 +1,62 @@
+.buton1{
+	-fx-background-color: #764AF1;
+	-fx-text-fill: #F2F2F2;
+	-fx-background-radius: 5;
+}
+.buton2{
+	-fx-background-color: #F32424;
+	-fx-text-fill: #F2F2F2;
+	-fx-background-radius: 5;
+}
+
+
+.buton1:hover, .buton2:hover{
+	/* -fx-background-color: #764AF1; */
+	-fx-effect: dropshadow(gaussian, white, 5, 0.5, 0.0, 0.0);
+}
+.buton1:pressed, .buton2:pressed{
+	-fx-background-color: white;
+}
+
+
+
+
+
+
+.b1, .b2, .b3, .b4{
+	-fx-background-radius: 10;
+}
+
+.b1{
+	-fx-background-color: linear-gradient(to bottom right, #232526 , #414345);
+	-fx-background-color: linear-gradient(to bottom right,  #764AF1, #764AF1);
+}
+.b2{
+	-fx-background-color: #c31432;
+}
+.b3{
+	-fx-background-color: linear-gradient(to bottom right, #c94b4b ,#4b134f);
+}
+.b4{
+	-fx-background-color: linear-gradient(to bottom right, #11998e , #38ef7d);
+}
+
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover{
+	-fx-effect: dropshadow(gaussian, white, 5, 0.5, 0.0, 0.0);
+	
+}
+.b1:pressed, .b2:pressed, .b3:pressed, .b4:pressed{
+	-fx-background-color: white;
+}
+
+.textField {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+.textField:focused{
+	-fx-background-color: #c31432;
+}
+
+
+/*	-fx-background-color: linear-gradient(to bottom right, #c2e59c , #64b3f4); */
